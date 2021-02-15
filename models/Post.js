@@ -15,5 +15,4 @@ const PostSchema = mongoose.Schema({
   },
 });
 
-// will show up as name of Posts in mongodb
 module.exports = mongoose.model('Posts', PostSchema);
